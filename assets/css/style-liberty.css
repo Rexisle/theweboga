@@ -11869,7 +11869,7 @@ button,
 }
 .magica{
   animation: moveleft 2s linear 1;
-  animation-delay: 7s;
+  animation-delay: 9s;
   visibility: hidden;
   animation-fill-mode: forwards;
 
@@ -11878,7 +11878,7 @@ button,
 
 .magic1{
   animation: moveright 2s linear 1;
-  animation-delay: 9s;
+  animation-delay: 11s;
   visibility: hidden;
   animation-fill-mode: forwards;
 
@@ -11890,7 +11890,7 @@ button,
 
 .magicb{
   animation: moveleft 2s linear 1;
-  animation-delay: 11s;
+  animation-delay: 13s;
   visibility: hidden;
   animation-fill-mode: forwards;
 
@@ -11899,7 +11899,7 @@ button,
 
 .magic2{
   animation: moveright 2s linear 1;
-  animation-delay: 13s;
+  animation-delay: 15s;
   visibility: hidden;
   animation-fill-mode: forwards;
 
@@ -19334,10 +19334,12 @@ ul.follow-social li a {
   padding: 40px;
   border-radius: var(--border-radius);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
-  animation:  fade-in linear;
-  scale: .8; opacity: 0;
+  animation: movedown 1s linear 1;
   animation-timeline: view();
   animation-range: contain 50px;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  
   
 }
 
