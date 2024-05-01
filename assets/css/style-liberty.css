@@ -614,7 +614,7 @@ progress {
   height: auto;
   border-radius: var(--border-radius);
   animation: zoomin 1s linear 1;
-  animation-delay: 4s;
+  animation-delay: 6s;
   visibility: hidden;
   animation-fill-mode: forwards;
 }
